@@ -33,6 +33,7 @@ nav li{
 
 section {
     display: flex;
+    gap: 2rem;
 
 }
 article {
