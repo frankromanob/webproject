@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style type="text/css">
+        @font-face {
+            font-family: "My Custom Font";
+            src: url(melorist.ttf) format("truetype");
+        }
+        p.customfont { 
+            font-family: "My Custom Font", Verdana, Tahoma;
+        }
+    </style>
+
     <link rel="icon" type="image/x-icon" href="favicon.png">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -41,10 +51,10 @@
 </header>
 <nav>
     <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#">Wedding Plans</a></li>
-        <li><a href="#">Photo Gallery</a></li>
-        <li><a href="#">Contact Us!</a></li>
+        <li><p class="customfont"><a href="index.html">Home</a></p></li>
+        <li><p class="customfont"><a href="#">Wedding Plans</a></p></li>
+        <li><p class="customfont"><a href="#">Photo Gallery</a></p></li>
+        <li><p class="customfont"><a href="#">Contact Us!</a></p></li>
     </ul>
 </nav>
 <main>

@@ -7,6 +7,7 @@ body {
     margin-right: 5%;
 }
 
+
 h1 {
     font-size: 3rem;
 }
@@ -40,8 +41,11 @@ nav {
     border-radius: 1rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    font-family:custom;
 }
+
 nav li{
+    font-size: 18px;
     display: inline-block;
     margin: 0.25rem;
 }
